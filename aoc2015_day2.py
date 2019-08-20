@@ -1,6 +1,6 @@
 def aoc2015day2_p1():
     total = 0
-    for line in open('advent_02.txt'):
+    for line in open('aoc2015_day2.txt'):
         l, w, h = line.split('x')
         l, w, h = int(l), int(w), int(h)
         area = 2*l*w + 2*w*h + 2*h*l
@@ -10,7 +10,7 @@ def aoc2015day2_p1():
 
 def aoc2015day2_p2():
     total = 0
-    for line in open('advent_02.txt'):
+    for line in open('aoc2015_day2.txt'):
         l, w, h = line.split('x')
         l, w, h = int(l), int(w), int(h)
         ribbon = 2 * min(l+w, w+h, h+l)

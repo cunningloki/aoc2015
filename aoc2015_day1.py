@@ -1,6 +1,6 @@
 import re
 
-input_string = 'advent_01.txt'
+input_string = 'aoc2015_day1.txt'
 
 with open(input_string, 'r') as input_file:
     for line in input_file:
@@ -16,7 +16,7 @@ with open(input_string, 'r') as input_file:
 
 input_file.close()
 
-input_string = 'advent_01.txt'
+input_string = 'aoc2015_day1.txt'
 
 with open(input_string, 'r') as input_file:
     for line in input_file:
